@@ -21,7 +21,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
 
-#
-#jwt:
-#  token:
-#    secret: "secretKey"
+jwt:
+  token:
+    secret: hello
+    expireTimeMs: 3600000
