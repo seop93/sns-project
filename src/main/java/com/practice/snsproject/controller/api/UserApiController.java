@@ -1,10 +1,10 @@
 package com.practice.snsproject.controller.api;
 
 
-import com.practice.snsproject.doamin.dto.request.UserJoinRequest;
-import com.practice.snsproject.doamin.dto.response.Response;
-import com.practice.snsproject.doamin.dto.response.UserJoinResponse;
-import com.practice.snsproject.doamin.entity.User;
+import com.practice.snsproject.domain.dto.request.UserJoinRequest;
+import com.practice.snsproject.domain.dto.response.Response;
+import com.practice.snsproject.domain.dto.response.UserJoinResponse;
+import com.practice.snsproject.domain.entity.User;
 import com.practice.snsproject.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
