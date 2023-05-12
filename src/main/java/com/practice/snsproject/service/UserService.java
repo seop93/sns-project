@@ -1,7 +1,7 @@
 package com.practice.snsproject.service;
 
 
-import com.practice.snsproject.doamin.entity.User;
+import com.practice.snsproject.domain.entity.User;
 import com.practice.snsproject.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
