@@ -1,4 +1,4 @@
-package com.practice.snsproject.doamin.dto.request;
+package com.practice.snsproject.domain.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
