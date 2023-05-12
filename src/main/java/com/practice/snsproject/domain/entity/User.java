@@ -1,4 +1,4 @@
-package com.practice.snsproject.doamin.entity;
+package com.practice.snsproject.domain.entity;
 
 import com.practice.snsproject.enumerate.UserRole;
 import jakarta.persistence.*;
