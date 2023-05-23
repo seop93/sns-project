@@ -57,7 +57,7 @@ http://ec2-43-200-172-83.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/
 
 ## 🛎 Endpoints
 
-- `Get /api/v1/hello`<br>
+- `Get /api/v1/test`<br>
 ### 사용자
 - 회원가입 `Post /api/v1/users/join`<br>
   **입력 폼(JSON형식)**
