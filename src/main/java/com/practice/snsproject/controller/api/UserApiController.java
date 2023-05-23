@@ -25,6 +25,5 @@ public class UserApiController {
     public Response<UserJoinResponse> join(@RequestBody UserJoinRequest request){
         User savedUser = userService.join(request.getUserName(), request.getPassword());
         return Response.success(new UserJoinResponse(savedUser.getId(), savedUser.getUserName()));
-
     }
 }

@@ -18,8 +18,6 @@ public class UserService {
 
     @Transactional
     public User join(String userName, String password){
-
-
         String encPassword = passwordEncoder.encode(password);
         User user = User.registerUser(userName, encPassword);
         return userRepository.save(user);
