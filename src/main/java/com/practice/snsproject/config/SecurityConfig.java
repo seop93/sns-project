@@ -17,10 +17,10 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @RequiredArgsConstructor
 @Configuration
 public class SecurityConfig {
-    private final String PERMIT_URL[] = {
+    private final String[] PERMIT_URL = {
             "/api/v1/users/join", "/api/v1/users/login", "/api/v1/hello"};
 
-    private final String PERMIT_URL_SWAGGER[] = {
+    private final String[] PERMIT_URL_SWAGGER = {
             "/v3/api-docs/**",
             "/swagger-ui/**",
             "/swagger-resources/**",
